@@ -1,0 +1,11 @@
+uid: SR-0066
+type: system_requirement
+status: approved
+title: All code must pass standard type checking
+text: >-
+  All TypeScript must pass type checking with the standard toolchain.
+links:
+- target: UR-0011
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Toolchain Requirements — TypeScript Compiler"

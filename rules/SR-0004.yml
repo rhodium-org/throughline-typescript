@@ -1,0 +1,12 @@
+uid: SR-0004
+type: system_requirement
+status: approved
+title: Use actual Unicode characters for printable non-ASCII
+text: >-
+  For a printable non-ASCII character use the actual Unicode character; use a hex or
+  Unicode escape only for non-printable characters, with an explanatory comment.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Source File Basics — Non-ASCII Characters"

@@ -1,0 +1,12 @@
+uid: SR-0009
+type: system_requirement
+status: approved
+title: Prefer relative import paths within a project
+text: >-
+  Prefer relative import paths for files in the same project, and limit the number of
+  parent-directory steps so module structure stays clear.
+links:
+- target: UR-0002
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Source File Structure — Import Paths"

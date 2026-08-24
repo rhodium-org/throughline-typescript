@@ -1,0 +1,12 @@
+uid: SR-0037
+type: system_requirement
+status: approved
+title: Always brace control-flow blocks
+text: >-
+  Always use a braced block for the body of an if, else, for, do or while statement,
+  except a simple if that fits on one line.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Control Structures — Control Flow Statements"

@@ -1,0 +1,12 @@
+uid: SR-0042
+type: system_requirement
+status: approved
+title: Keep try blocks focused on throwing code
+text: >-
+  Keep the amount of code inside a try block to the statements that can actually throw,
+  moving non-throwing lines outside where it does not hurt readability.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Control Structures — Keep Try Blocks Focused"

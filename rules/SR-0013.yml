@@ -1,0 +1,12 @@
+uid: SR-0013
+type: system_requirement
+status: approved
+title: Declare variables with const or let, never var
+text: >-
+  Always declare variables with const or let and never with var; use const by default and
+  let only where reassignment is required.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Variables and Literals — Variable Declarations"

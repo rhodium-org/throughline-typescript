@@ -1,0 +1,11 @@
+uid: SR-0050
+type: system_requirement
+status: approved
+title: Name global constants in CONSTANT_CASE
+text: >-
+  Name global constant values and enum values in CONSTANT_CASE.
+links:
+- target: UR-0008
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Naming — Casing"

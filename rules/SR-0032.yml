@@ -1,0 +1,12 @@
+uid: SR-0032
+type: system_requirement
+status: approved
+title: Use arrow functions instead of function expressions
+text: >-
+  Use arrow functions rather than function expressions, except for generators or the rare
+  case of dynamically rebinding this.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Functions — Function Expressions"

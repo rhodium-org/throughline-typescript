@@ -1,0 +1,11 @@
+uid: UR-0006
+type: user_requirement
+status: approved
+title: Control Structures
+text: >-
+  Rules governing equality, blocks, iteration, switch, exceptions and assertions.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Control Structures"

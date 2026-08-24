@@ -1,0 +1,11 @@
+uid: SR-0045
+type: system_requirement
+status: approved
+title: Do not use eval or the Function constructor
+text: >-
+  Do not use eval or the Function(...string) constructor, except in a genuine code loader.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Disallowed Features — eval"

@@ -1,0 +1,13 @@
+uid: SR-0039
+type: system_requirement
+status: approved
+title: Give every switch a final default that does not fall through
+text: >-
+  Every switch statement must contain a default group placed last, and a non-empty
+  statement group must terminate with break, return or a thrown error rather than fall
+  through.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Control Structures — Switch Statements"

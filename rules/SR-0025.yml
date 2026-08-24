@@ -1,0 +1,12 @@
+uid: SR-0025
+type: system_requirement
+status: approved
+title: Use parameter properties over manual field plumbing
+text: >-
+  Use parameter properties rather than plumbing a constructor argument through to a class
+  member by hand.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Classes — Class Members"

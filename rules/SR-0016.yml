@@ -1,0 +1,12 @@
+uid: SR-0016
+type: system_requirement
+status: approved
+title: Only spread iterables into an array literal
+text: >-
+  When using spread in an array literal, only spread iterables; never spread a primitive
+  such as null or undefined.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Variables and Literals — Array Literals"

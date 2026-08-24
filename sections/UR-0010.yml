@@ -1,0 +1,11 @@
+uid: UR-0010
+type: user_requirement
+status: approved
+title: Comments and Documentation
+text: >-
+  Rules governing JSDoc, implementation comments and their formatting.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google TS Style Guide: Comments and Documentation"

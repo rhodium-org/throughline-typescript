@@ -1,0 +1,12 @@
+uid: SR-0062
+type: system_requirement
+status: approved
+title: Use JSDoc for documentation and // for implementation notes
+text: >-
+  Use /** JSDoc */ for documentation that tools consume and // line comments for
+  implementation notes.
+links:
+- target: UR-0010
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Comments and Documentation — JSDoc versus Comments"

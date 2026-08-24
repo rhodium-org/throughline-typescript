@@ -1,0 +1,12 @@
+uid: SR-0019
+type: system_requirement
+status: approved
+title: Use single quotes and template literals for strings
+text: >-
+  Use single quotes for ordinary string literals, and template literals for complex or
+  multi-part concatenation; do not use a trailing-backslash line continuation.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Variables and Literals — String Literals"

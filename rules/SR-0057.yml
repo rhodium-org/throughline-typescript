@@ -1,0 +1,11 @@
+uid: SR-0057
+type: system_requirement
+status: approved
+title: Use interfaces for object types
+text: >-
+  Use an interface rather than a type-literal alias to describe an object type.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Type System — Interfaces over Type Literal Aliases"

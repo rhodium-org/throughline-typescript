@@ -1,0 +1,12 @@
+uid: SR-0031
+type: system_requirement
+status: approved
+title: Prefer function declarations for named functions
+text: >-
+  Prefer a function declaration over an arrow function or function expression for a named
+  function, unless an explicit type annotation is required.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Functions — Function Declarations"

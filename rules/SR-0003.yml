@@ -1,0 +1,12 @@
+uid: SR-0003
+type: system_requirement
+status: approved
+title: Prefer named escape sequences over numeric escapes
+text: >-
+  Use the special escape sequences (such as \n, \t and \\) rather than the corresponding
+  numeric escapes; never use legacy octal escapes.
+links:
+- target: UR-0001
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Source File Basics — Escape Sequences"

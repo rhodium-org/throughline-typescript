@@ -1,0 +1,12 @@
+uid: SR-0064
+type: system_requirement
+status: approved
+title: Document exported symbols where their use is not obvious
+text: >-
+  Provide JSDoc on an exported symbol describing its purpose and usage wherever that is
+  not obvious from the name and signature.
+links:
+- target: UR-0010
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Comments and Documentation — JSDoc General Form"

@@ -1,0 +1,11 @@
+uid: UR-0008
+type: user_requirement
+status: approved
+title: Naming
+text: >-
+  Rules governing the casing and choice of identifiers.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google TS Style Guide: Naming"

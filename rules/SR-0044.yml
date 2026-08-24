@@ -1,0 +1,11 @@
+uid: SR-0044
+type: system_requirement
+status: approved
+title: Use a plain enum, not const enum
+text: >-
+  Do not use const enum; use a plain enum instead.
+links:
+- target: UR-0007
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Disallowed Features — const enum"

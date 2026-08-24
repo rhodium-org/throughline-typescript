@@ -1,0 +1,12 @@
+uid: SR-0029
+type: system_requirement
+status: approved
+title: Keep getters pure and side-effect free
+text: >-
+  A getter must be a pure function that returns consistent results and never changes
+  observable state.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Classes — Getters and Setters"

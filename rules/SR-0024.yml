@@ -1,0 +1,12 @@
+uid: SR-0024
+type: system_requirement
+status: approved
+title: Mark never-reassigned properties readonly
+text: >-
+  Mark a property that is never reassigned outside the constructor with the readonly
+  modifier.
+links:
+- target: UR-0004
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Classes — Class Members"

@@ -1,0 +1,12 @@
+uid: INT-0001
+type: intent
+status: approved
+title: TypeScript is written in one consistent, safe, maintainable style
+text: >-
+  The Google TypeScript Style Guide exists so that TypeScript across a large codebase
+  reads as though written by one author: consistent structure, naming and language-feature
+  choices, biased towards the safe and statically checkable subset of the language, so
+  that any engineer can read and change code they did not write.
+normative: false
+attrs:
+  source_ref: "Google TS Style Guide"

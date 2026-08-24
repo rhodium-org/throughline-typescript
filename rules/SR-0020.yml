@@ -1,0 +1,12 @@
+uid: SR-0020
+type: system_requirement
+status: approved
+title: Parse numbers with Number() and check for NaN
+text: >-
+  Use Number() to parse a numeric value and check the result for NaN; do not use unary
+  plus, and do not use parseInt or parseFloat except for non-decimal strings.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Variables and Literals — Type Coercion"

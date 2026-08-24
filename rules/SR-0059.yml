@@ -1,0 +1,12 @@
+uid: SR-0059
+type: system_requirement
+status: approved
+title: Prefer unknown to any
+text: >-
+  Avoid any; provide a specific type or use unknown, which forces narrowing before use. If
+  any is unavoidable, document why.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Type System — any"

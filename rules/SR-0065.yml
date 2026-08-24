@@ -1,0 +1,12 @@
+uid: SR-0065
+type: system_requirement
+status: approved
+title: Do not box comments in ASCII art
+text: >-
+  Do not enclose a comment in a box of asterisks or other characters; use plain
+  single-line comments for multi-line implementation notes.
+links:
+- target: UR-0010
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Comments and Documentation — Multi-line Comments"

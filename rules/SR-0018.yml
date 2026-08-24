@@ -1,0 +1,12 @@
+uid: SR-0018
+type: system_requirement
+status: approved
+title: Only spread objects into an object literal
+text: >-
+  When using spread in an object literal, only spread objects; do not spread arrays or
+  primitives.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Variables and Literals — Object Literals"

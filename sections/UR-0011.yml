@@ -1,0 +1,11 @@
+uid: UR-0011
+type: user_requirement
+status: approved
+title: Toolchain Requirements
+text: >-
+  Rules governing type checking and conformance.
+links:
+- target: INT-0001
+  type: derives_from
+attrs:
+  source_ref: "Google TS Style Guide: Toolchain Requirements"

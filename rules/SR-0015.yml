@@ -1,0 +1,12 @@
+uid: SR-0015
+type: system_requirement
+status: approved
+title: Initialise arrays with literals, not the Array constructor
+text: >-
+  Initialise arrays with bracket notation or Array.from(); never use the Array()
+  constructor, with or without new.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Variables and Literals — Array Literals"

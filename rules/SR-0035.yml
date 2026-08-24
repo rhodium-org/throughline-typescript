@@ -1,0 +1,12 @@
+uid: SR-0035
+type: system_requirement
+status: approved
+title: Use a concise arrow body only when the value is used
+text: >-
+  Use a concise (expression) arrow body only when its return value is used; otherwise use
+  a block body so the function is typed void and has no accidental return.
+links:
+- target: UR-0005
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Functions — Arrow Function Bodies"

@@ -1,0 +1,12 @@
+uid: SR-0036
+type: system_requirement
+status: approved
+title: Always use === and !==
+text: >-
+  Always use triple-equals === and !==; never use == or !=, except that a comparison to
+  the literal null may use == to also cover undefined.
+links:
+- target: UR-0006
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Control Structures — Equality Checks"

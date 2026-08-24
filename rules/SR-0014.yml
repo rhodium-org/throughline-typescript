@@ -1,0 +1,11 @@
+uid: SR-0014
+type: system_requirement
+status: approved
+title: Declare one variable per statement
+text: >-
+  Declare only one variable per declaration statement.
+links:
+- target: UR-0003
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Language Features — Variables and Literals — Variable Declarations"

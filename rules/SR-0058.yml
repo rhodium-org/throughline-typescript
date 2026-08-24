@@ -1,0 +1,12 @@
+uid: SR-0058
+type: system_requirement
+status: approved
+title: Use T[] for simple arrays and Array<T> for complex elements
+text: >-
+  Use the T[] shorthand for a simple element type and the Array<T> form only for a complex
+  element expression.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Type System — Array Type"

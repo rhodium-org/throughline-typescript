@@ -1,0 +1,12 @@
+uid: SR-0060
+type: system_requirement
+status: approved
+title: Use lowercase primitive types, never wrapper types
+text: >-
+  Never use the wrapper types String, Boolean, Number or Object; use the lowercase
+  primitives, and use object to mean any non-primitive.
+links:
+- target: UR-0009
+  type: implements
+attrs:
+  source_ref: "Google TS Style Guide: Type System — Wrapper Types"
