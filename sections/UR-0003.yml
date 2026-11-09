@@ -1,11 +1,11 @@
 uid: UR-0003
 type: user_requirement
-status: approved
+status: proposed
 title: Variables and Literals
-text: >-
-  Rules governing variable declaration and array, object, string and number literals.
+text: Rules governing variable declaration and array, object, string and number literals.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Google TS Style Guide: Language Features — Variables and Literals"
+  source_ref: 'Google TS Style Guide: Language Features — Variables and Literals'

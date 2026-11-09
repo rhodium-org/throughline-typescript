@@ -1,12 +1,13 @@
 uid: SR-0038
 type: system_requirement
-status: approved
+status: proposed
 title: Iterate arrays with for...of and dicts with guarded for...in
-text: >-
-  Prefer for...of to iterate an array; only use for...in on a dict-style object, and then
-  guard it with hasOwnProperty or prefer Object.keys / values / entries.
+text: Prefer for...of to iterate an array; only use for...in on a dict-style object,
+  and then guard it with hasOwnProperty or prefer Object.keys / values / entries.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Language Features — Control Structures — Iterating Containers"
+  source_ref: 'Google TS Style Guide: Language Features — Control Structures — Iterating
+    Containers'

@@ -1,12 +1,12 @@
 uid: SR-0068
 type: system_requirement
-status: approved
+status: proposed
 title: Abide by conformance rules
-text: >-
-  Code must abide by the applicable global and framework-local conformance rules enforced
-  by the tsetse and tsec frameworks.
+text: Code must abide by the applicable global and framework-local conformance rules
+  enforced by the tsetse and tsec frameworks.
+normative: true
 links:
 - target: UR-0011
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Toolchain Requirements — Conformance"
+  source_ref: 'Google TS Style Guide: Toolchain Requirements — Conformance'

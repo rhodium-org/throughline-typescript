@@ -1,12 +1,12 @@
 uid: SR-0002
 type: system_requirement
-status: approved
+status: proposed
 title: Use only the ASCII space for in-line whitespace
-text: >-
-  Use only the ASCII horizontal space character (0x20) as in-line whitespace; represent
-  any other whitespace character with an escape sequence.
+text: Use only the ASCII horizontal space character (0x20) as in-line whitespace;
+  represent any other whitespace character with an escape sequence.
+normative: true
 links:
 - target: UR-0001
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Source File Basics — Whitespace Characters"
+  source_ref: 'Google TS Style Guide: Source File Basics — Whitespace Characters'

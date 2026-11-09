@@ -1,11 +1,11 @@
 uid: UR-0005
 type: user_requirement
-status: approved
+status: proposed
 title: Functions
-text: >-
-  Rules governing function declarations, arrow functions and this.
+text: Rules governing function declarations, arrow functions and this.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Google TS Style Guide: Language Features — Functions"
+  source_ref: 'Google TS Style Guide: Language Features — Functions'

@@ -1,12 +1,12 @@
 uid: SR-0034
 type: system_requirement
-status: approved
+status: proposed
 title: Use rest parameters instead of arguments
-text: >-
-  Use a rest parameter instead of the arguments object, never name a variable arguments,
-  and use function spread instead of Function.prototype.apply.
+text: Use a rest parameter instead of the arguments object, never name a variable
+  arguments, and use function spread instead of Function.prototype.apply.
+normative: true
 links:
 - target: UR-0005
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Language Features — Functions — Rest and Spread"
+  source_ref: 'Google TS Style Guide: Language Features — Functions — Rest and Spread'

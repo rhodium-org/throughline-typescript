@@ -1,12 +1,13 @@
 uid: SR-0012
 type: system_requirement
-status: approved
+status: proposed
 title: Use import type and export type for type-only symbols
-text: >-
-  Use import type or export type when a symbol is used only as a type, so the import can
-  be elided under file-by-file transpilation.
+text: Use import type or export type when a symbol is used only as a type, so the
+  import can be elided under file-by-file transpilation.
+normative: true
 links:
 - target: UR-0002
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Source File Structure — Import type/Export type"
+  source_ref: 'Google TS Style Guide: Source File Structure — Import type/Export
+    type'

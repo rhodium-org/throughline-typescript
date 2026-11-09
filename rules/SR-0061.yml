@@ -1,12 +1,12 @@
 uid: SR-0061
 type: system_requirement
-status: approved
+status: proposed
 title: Prefer Map, Set and Record to index-signature objects
-text: >-
-  Consider Map and Set instead of an object with an index signature, and use Record<Keys,
-  Value> for an object with a known set of keys.
+text: Consider Map and Set instead of an object with an index signature, and use
+  Record<Keys, Value> for an object with a known set of keys.
+normative: true
 links:
 - target: UR-0009
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Type System — Indexable Types"
+  source_ref: 'Google TS Style Guide: Type System — Indexable Types'

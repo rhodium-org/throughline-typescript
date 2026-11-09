@@ -1,12 +1,12 @@
 uid: UR-0009
 type: user_requirement
-status: approved
+status: proposed
 title: Type System
-text: >-
-  Rules governing type inference, nullability, interfaces, arrays and the any/unknown
+text: Rules governing type inference, nullability, interfaces, arrays and the any/unknown
   types.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Google TS Style Guide: Type System"
+  source_ref: 'Google TS Style Guide: Type System'

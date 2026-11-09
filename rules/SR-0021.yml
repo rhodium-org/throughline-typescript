@@ -1,11 +1,13 @@
 uid: SR-0021
 type: system_requirement
-status: approved
+status: proposed
 title: Do not instantiate primitive wrapper objects
-text: >-
-  Do not instantiate the wrapper classes String, Boolean or Number for primitive values.
+text: Do not instantiate the wrapper classes String, Boolean or Number for primitive
+  values.
+normative: true
 links:
 - target: UR-0003
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Language Features — Variables and Literals — Disallowed"
+  source_ref: 'Google TS Style Guide: Language Features — Variables and Literals
+    — Disallowed'

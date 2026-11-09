@@ -1,13 +1,14 @@
 uid: SR-0041
 type: system_requirement
-status: approved
+status: proposed
 title: Avoid unexplained type and non-null assertions
-text: >-
-  Do not use a type assertion (x as T) or a non-null assertion (y!) without an obvious or
-  commented reason; prefer an explicit runtime check, and use as-syntax not angle
-  brackets.
+text: Do not use a type assertion (x as T) or a non-null assertion (y!) without an
+  obvious or commented reason; prefer an explicit runtime check, and use as-syntax
+  not angle brackets.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Language Features — Control Structures — Type Assertions"
+  source_ref: 'Google TS Style Guide: Language Features — Control Structures — Type
+    Assertions'

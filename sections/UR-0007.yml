@@ -1,11 +1,11 @@
 uid: UR-0007
 type: user_requirement
-status: approved
+status: proposed
 title: Disallowed Features
-text: >-
-  Language and platform features that must not be used.
+text: Language and platform features that must not be used.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Google TS Style Guide: Language Features — Disallowed Features"
+  source_ref: 'Google TS Style Guide: Language Features — Disallowed Features'

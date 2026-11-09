@@ -1,12 +1,12 @@
 uid: SR-0055
 type: system_requirement
-status: approved
+status: proposed
 title: Keep null and undefined out of type aliases
-text: >-
-  Do not include |null or |undefined in a type alias; add nullability only at the point of
-  use and handle a null value close to its source.
+text: Do not include |null or |undefined in a type alias; add nullability only at
+  the point of use and handle a null value close to its source.
+normative: true
 links:
 - target: UR-0009
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Type System — Nullable and Undefined Types"
+  source_ref: 'Google TS Style Guide: Type System — Nullable and Undefined Types'

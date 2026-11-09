@@ -1,11 +1,11 @@
 uid: SR-0056
 type: system_requirement
-status: approved
+status: proposed
 title: Prefer optional members to a |undefined union
-text: >-
-  Use an optional parameter or field (?) rather than an explicit |undefined union.
+text: Use an optional parameter or field (?) rather than an explicit |undefined union.
+normative: true
 links:
 - target: UR-0009
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Type System — Optionals"
+  source_ref: 'Google TS Style Guide: Type System — Optionals'

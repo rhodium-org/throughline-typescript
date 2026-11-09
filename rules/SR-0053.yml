@@ -1,12 +1,12 @@
 uid: SR-0053
 type: system_requirement
-status: approved
+status: proposed
 title: Use descriptive, unambiguous names
-text: >-
-  Use descriptive names clear to a new reader and avoid ambiguous abbreviations; a very
-  short name is acceptable only for a variable in scope for a few lines.
+text: Use descriptive names clear to a new reader and avoid ambiguous abbreviations;
+  a very short name is acceptable only for a variable in scope for a few lines.
+normative: true
 links:
 - target: UR-0008
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Naming — Descriptive Names"
+  source_ref: 'Google TS Style Guide: Naming — Descriptive Names'

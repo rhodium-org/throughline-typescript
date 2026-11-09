@@ -1,12 +1,13 @@
 uid: SR-0047
 type: system_requirement
-status: approved
+status: proposed
 title: Do not modify builtins or add globals
-text: >-
-  Do not modify builtin objects or their prototypes, do not depend on libraries that do,
-  and avoid adding symbols to the global object.
+text: Do not modify builtin objects or their prototypes, do not depend on libraries
+  that do, and avoid adding symbols to the global object.
+normative: true
 links:
 - target: UR-0007
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Language Features — Disallowed Features — Modifying Builtins"
+  source_ref: 'Google TS Style Guide: Language Features — Disallowed Features — Modifying
+    Builtins'

@@ -1,12 +1,13 @@
 uid: SR-0040
 type: system_requirement
-status: approved
+status: proposed
 title: Throw only Error instances
-text: >-
-  Always instantiate an exception with new Error() or a subclass; never throw an arbitrary
-  value, and assume every caught error is an Error instance.
+text: Always instantiate an exception with new Error() or a subclass; never throw
+  an arbitrary value, and assume every caught error is an Error instance.
+normative: true
 links:
 - target: UR-0006
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Language Features — Control Structures — Exception Handling"
+  source_ref: 'Google TS Style Guide: Language Features — Control Structures — Exception
+    Handling'

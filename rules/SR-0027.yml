@@ -1,12 +1,12 @@
 uid: SR-0027
 type: system_requirement
-status: approved
+status: proposed
 title: Limit visibility and never use a redundant public modifier
-text: >-
-  Limit each symbol's visibility as far as possible, and never use the public modifier
-  except when declaring a non-readonly public parameter property.
+text: Limit each symbol's visibility as far as possible, and never use the public
+  modifier except when declaring a non-readonly public parameter property.
+normative: true
 links:
 - target: UR-0004
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Language Features — Classes — Visibility"
+  source_ref: 'Google TS Style Guide: Language Features — Classes — Visibility'

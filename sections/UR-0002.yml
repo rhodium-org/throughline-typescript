@@ -1,12 +1,12 @@
 uid: UR-0002
 type: user_requirement
-status: approved
+status: proposed
 title: Source File Structure
-text: >-
-  Rules governing the order of a file's contents, imports, exports and the use of modules
-  over namespaces.
+text: Rules governing the order of a file's contents, imports, exports and the use
+  of modules over namespaces.
+normative: true
 links:
 - target: INT-0001
   type: derives_from
 attrs:
-  source_ref: "Google TS Style Guide: Source File Structure"
+  source_ref: 'Google TS Style Guide: Source File Structure'

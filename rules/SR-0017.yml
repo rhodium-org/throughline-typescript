@@ -1,11 +1,12 @@
 uid: SR-0017
 type: system_requirement
-status: approved
+status: proposed
 title: Create objects with literals, not the Object constructor
-text: >-
-  Create objects with object-literal syntax rather than the Object constructor.
+text: Create objects with object-literal syntax rather than the Object constructor.
+normative: true
 links:
 - target: UR-0003
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Language Features — Variables and Literals — Object Literals"
+  source_ref: 'Google TS Style Guide: Language Features — Variables and Literals
+    — Object Literals'

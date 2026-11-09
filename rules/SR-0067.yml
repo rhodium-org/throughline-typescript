@@ -1,12 +1,12 @@
 uid: SR-0067
 type: system_requirement
-status: approved
+status: proposed
 title: Do not suppress type errors
-text: >-
-  Do not use @ts-ignore, @ts-expect-error or @ts-nocheck to suppress a type error, except
-  very rarely @ts-expect-error in a unit test.
+text: Do not use @ts-ignore, @ts-expect-error or @ts-nocheck to suppress a type error,
+  except very rarely @ts-expect-error in a unit test.
+normative: true
 links:
 - target: UR-0011
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Toolchain Requirements — TypeScript Compiler"
+  source_ref: 'Google TS Style Guide: Toolchain Requirements — TypeScript Compiler'

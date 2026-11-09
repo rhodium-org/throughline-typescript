@@ -1,11 +1,11 @@
 uid: SR-0063
 type: system_requirement
-status: approved
+status: proposed
 title: Write JSDoc in Markdown with one tag per line
-text: >-
-  Write JSDoc in Markdown, and put each JSDoc tag on its own line.
+text: Write JSDoc in Markdown, and put each JSDoc tag on its own line.
+normative: true
 links:
 - target: UR-0010
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Comments and Documentation — JSDoc Tags"
+  source_ref: 'Google TS Style Guide: Comments and Documentation — JSDoc Tags'

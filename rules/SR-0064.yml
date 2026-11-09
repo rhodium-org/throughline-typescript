@@ -1,12 +1,13 @@
 uid: SR-0064
 type: system_requirement
-status: approved
+status: proposed
 title: Document exported symbols where their use is not obvious
-text: >-
-  Provide JSDoc on an exported symbol describing its purpose and usage wherever that is
-  not obvious from the name and signature.
+text: Provide JSDoc on an exported symbol describing its purpose and usage wherever
+  that is not obvious from the name and signature.
+normative: true
 links:
 - target: UR-0010
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Comments and Documentation — JSDoc General Form"
+  source_ref: 'Google TS Style Guide: Comments and Documentation — JSDoc General
+    Form'

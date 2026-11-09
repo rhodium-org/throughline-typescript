@@ -1,12 +1,13 @@
 uid: SR-0033
 type: system_requirement
-status: approved
+status: proposed
 title: Do not use this outside a class or bound arrow function
-text: >-
-  Do not use this in a plain function or expression; use an arrow function or an explicit
-  parameter, and prefer an arrow function to bind, goog.bind, or self = this.
+text: Do not use this in a plain function or expression; use an arrow function or
+  an explicit parameter, and prefer an arrow function to bind, goog.bind, or self
+  = this.
+normative: true
 links:
 - target: UR-0005
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Language Features — Functions — Rebinding this"
+  source_ref: 'Google TS Style Guide: Language Features — Functions — Rebinding this'

@@ -1,12 +1,12 @@
 uid: SR-0028
 type: system_requirement
-status: approved
+status: proposed
 title: Prefer module-local functions to private static methods
-text: >-
-  Prefer a module-local function to a private static method where it reads as well, and
-  never rely on dynamic dispatch of a static method.
+text: Prefer a module-local function to a private static method where it reads as
+  well, and never rely on dynamic dispatch of a static method.
+normative: true
 links:
 - target: UR-0004
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Language Features — Classes — Static Methods"
+  source_ref: 'Google TS Style Guide: Language Features — Classes — Static Methods'

@@ -1,12 +1,13 @@
 uid: SR-0046
 type: system_requirement
-status: approved
+status: proposed
 title: Do not use with, debugger, or non-standard features
-text: >-
-  Do not use the with statement, debugger statements in production code, or non-standard
+text: Do not use the with statement, debugger statements in production code, or non-standard
   ECMAScript or web-platform features.
+normative: true
 links:
 - target: UR-0007
   type: implements
 attrs:
-  source_ref: "Google TS Style Guide: Language Features — Disallowed Features — Non-standard Features"
+  source_ref: 'Google TS Style Guide: Language Features — Disallowed Features — Non-standard
+    Features'
